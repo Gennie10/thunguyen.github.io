@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffaa00;
+  color: #1f1f1f;
+}
+a {
+  text-decoration: none;
+}
+
+#menu {
+  background-color: #ffd371;
+  color: #1f1f1f;
+  overflow: auto;
+}
+#menu h1 {
+  float: left;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+#menu ul {
+  float: right;
+  list-style: none;
+  padding-right: 30px;
+}
+#menu ul li {
+  float: left;
+}
+#menu ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #af0404;
+}
+#menu ul li a:hover {
+  background-color: #ffaa00;
+  color: white;
+}
+
+p {
+  padding: 100px;
+  float: center;
+  text-align: center;
+  text-justify: center;
+  line-height: 2em;
+  font-size: 24px;
+}
+p img {
+  padding: 20px;
+}
